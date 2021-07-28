@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.NavLink {
+  margin: 10px;
+  color: #055160cf;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.NavLink:hover {
+  color: rgb(9, 160, 22);
+}
+
+.NavLink_active {
+  color: rgb(15, 161, 71);
+}

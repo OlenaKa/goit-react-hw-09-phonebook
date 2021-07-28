@@ -1,0 +1,6 @@
+.user-menu-container {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,45 @@
+.changeform {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  flex-wrap: wrap;
+}
+
+label {
+  display: block;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.changeform > label .label-text {
+  color: darkcyan;
+  cursor: text;
+}
+
+.changeform > label input:focus + .label-text {
+  color: darkcyan;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.changeform > label input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(16 180 137 / 20%);
+  color: darkcyan;
+  font-size: 20px;
+  letter-spacing: 1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 200px;
+}
+
+.changeform > label input:focus {
+  max-width: 100%;
+  width: 200px;
+}
